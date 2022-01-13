@@ -64,7 +64,7 @@ gene_filter<-rownames(filter)
 final_gene<-intersect(gene_var,gene_filter)
 return(final_gene)
 }
-
+ 
 
 normal<-fun_var(diff,normal_cpm_miExpr)
 cancer<-fun_var(diff,cell_line_cpm_miExpr)
