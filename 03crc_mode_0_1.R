@@ -157,7 +157,7 @@ normal_purity_miExpr <- mix_counts_diff[,c(1,34:74)]
   write.csv(celline_purity,file="./resultdata/celline_purity_0_1.csv")
 
 
-
+ 
 
 
 
