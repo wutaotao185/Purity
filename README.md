@@ -17,7 +17,7 @@ Performing the differential analysiss between cancer cell line-derived exosomes 
 Applying R script 01signature_DEGS.r for this step. 
 #### Input data
 The miRNA-Seq data of cancer cell line-derived exosomes and healthy cell-derived exosomes(rawcount).
-#### output data
+#### Output data
 Differential miRNAs between cancer cell line-derived exosomes and healthy cell-derived exosomes.
 
 ##
@@ -28,7 +28,7 @@ Applying R script 02signature_Var_Exp.r for this step.
 The miRNA-Seq data of cancer cell line-derived exosomes and healthy cell-derived exosomes(CPM).
 
 The Differential gene list obtained from step1.
-#### output data
+#### Output data
 Signatures between cancer cell line-derived exosomes and healthy cell-derived exosomes.
 
 ##
@@ -42,7 +42,7 @@ The miRNA-Seq data of cancer cell line-derived exosomes and healthy cell-derived
 The miRNA-Seq data of serum exosomes of cancer patients(CPM).
 
 The signature list obtained from step2.
-#### output data
+#### Output data
 The tumor purity of cancer patients' serum exosomes.
 
 ##
@@ -54,7 +54,7 @@ Applying R script 04gene_correct.R for this step.
 The miRNA-Seq data of serum exosomes of cancer patients(CPM).
 
 The tumor purity of cancer patients' serum exosomes obtained from step3.
-#### output data
+#### Output data
 Differentially expressed miRNAs corrected by tumour purity
 
 
@@ -67,7 +67,7 @@ Applying R script 01signature_DEGS.r for this step.
 #### Input data
 [cancer_cellline_derived_exosomes.csv]
 [healthy_cellline_derived_exosomes.csv]
-#### output data
+#### Output data
 [CRC_0.01_200.Rdata]
 
 ###
@@ -79,7 +79,7 @@ Applying R script 02signature_Var_Exp.r for this step.
 [cell_line_cpm_miExpr_var.csv]
 [normal_cpm_miExpr_var.csv]
 [CRC_0.01_200.Rdata]
-#### output data
+#### Output data
 [CRC_var2_h20_51refgenes.Rdata]
 
 ### Step3
@@ -90,7 +90,7 @@ Applying R script 03mode_0_1.R for this step.
 [cell_line_cpm_miExpr_var.csv]
 [normal_cpm_miExpr_var.csv]
 The signature list obtained from step2.
-#### output data
+#### Output data
 [normal_purity_0_1.csv]
 [celline_purity_0_1.csv]
 
@@ -102,5 +102,5 @@ Applying R script 04gene_correct.R for this step.
 [serum_cancer_cpm.csv]
 [serum_normal_cpm.csv]
 [crc_tumor_putity.csv]
-#### output data
+#### Output data
 [crc_correct_113.Rdata]
