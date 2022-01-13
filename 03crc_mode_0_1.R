@@ -126,7 +126,7 @@ normal_purity_miExpr <- mix_counts_diff[,c(1,34:74)]
       y <- temp_median$tumor_exo
 
       Dmat <- crossprod(X) 
-      
+       
       dvec <- as.vector(t(as.matrix(y)) %*% X) 
       bvec <- c(-1,1,rep(0, (dim(X)[2]))) 
       Amat <- rbind(-1,1,diag(dim(X)[2])) 
