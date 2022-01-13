@@ -4,7 +4,7 @@ A tumour purity deconvolution model to estimate tumour purity in serum exosomes 
 ## Prerequisites
 exosomePurity is written in R(version 4.0.3), requiring R packages DESeq2, preprocessCore, quadprog and edgeR.
 
-Preparing expresssion miRNA-Seq data of cancer cell line-derived exosomes, healthy cell-derived exosomes and serum exosomes of cancer patients.
+Preparing expresssion miRNA-Seq datas of cancer cell line-derived exosomes, healthy cell-derived exosomes and serum exosomes of cancer patients.
 
 
 ## Usage
@@ -21,6 +21,7 @@ Applying R script 01signature_DEGS.r for this step.
 #### output data
 Differential miRNAs between cancer cell line-derived exosomes and healthy cell-derived exosomes.
 
+##
 ### Step2
 Selecting miRNA signatures which are differentially expressed between groups and stably expressed within groups.
 ##### Input data
@@ -57,3 +58,4 @@ Differentially expressed miRNAs corrected by tumour purity
 
 
 ## Running the tests
+
