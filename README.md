@@ -89,7 +89,7 @@ Applying R script 03mode_0_1.R for this step.
 #### Input data
 [cell_line_cpm_miExpr_var.csv]
 [normal_cpm_miExpr_var.csv]
-The signature list obtained from step2.
+[CRC_var2_h20_51refgenes.Rdata]
 #### Output data
 [normal_purity_0_1.csv]
 [celline_purity_0_1.csv]
