@@ -15,12 +15,12 @@ Preparing expresssion files of exosome cancer
 
 
 The steps of exosomePurity are as follows:
-# Step1
+## Step1
 Performing the differential analysis between cancer cell line-derived exosomes and healthy cell-derived exosomes using miRNA-Seq data
-# Input data
+## Input data
 The microRNA-seq expression files in format of rawcount.
 
-# applying R script 01signature_DEGS.r
+## applying R script 01signature_DEGS.r
 
-# output data
+## output data
 Differential gene between tumour and normal
