@@ -71,7 +71,7 @@
   boxplot(mix_counts)
 }
 
-
+ 
 #
 {
   mix_counts$gene_id <-rownames(mix_counts)
