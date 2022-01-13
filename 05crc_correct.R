@@ -72,7 +72,7 @@ purity <- t(purity)
     log2((Ymean)/(Xmean))
     
   }
-  
+   
   befor_dat.transform <- data.frame(befor_dat.transform)
   out$log2FC <- lcf(befor_dat.transform[1:30],befor_dat.transform[31:120])
   befor_dat.transform$gene_id <- rownames(out)
