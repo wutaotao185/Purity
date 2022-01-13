@@ -19,7 +19,7 @@ The miRNA-Seq data of cancer cell line-derived exosomes and healthy cell-derived
 #### output data
 Differential miRNAs between cancer cell line-derived exosomes and healthy cell-derived exosomes.
 
-###
+##
 ### Step2
 Selecting miRNA signatures which are differentially expressed between groups and stably expressed within groups.
 Applying R script 02signature_Var_Exp.r for this step. 
@@ -29,6 +29,7 @@ The Differential gene list obtained from step1.
 #### output data
 Signatures between cancer cell line-derived exosomes and healthy cell-derived exosomes.
 
+##
 ### Step3
 Builting tumour purity deconvolution model to quantify the proportions of cancer exosomes and normal exosomes in serum
 Applying R script 03mode_0_1.R for this step. 
@@ -39,6 +40,7 @@ The signature list obtained from step2.
 #### output data
 The tumor purity of cancer patients' serum exosomes.
 
+##
 ### Step4
 Utilizing the exosome purity calculated by the model to correct differentially expressed miRNAs
 Applying R script 04gene_correct.R for this step.
@@ -91,5 +93,4 @@ Applying R script 04gene_correct.R for this step.
 [crc_tumor_putity.csv]
 #### output data
 [crc_correct_113.Rdata]
-
 
